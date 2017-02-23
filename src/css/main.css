@@ -1,0 +1,73 @@
+/* 重置浏览器默认样式 */
+input, button, select, textarea {
+    outline: none
+}
+
+textarea {
+    resize: none
+}
+
+*:focus {
+    outline: none
+}
+
+body,
+html {
+    height: 100%;
+    overflow: hidden;
+}
+/* 公共样式 */
+.center {
+    text-align: center;
+}
+.disInl {
+    display: inline-block;
+}
+.col999 {
+    color: #999;
+}
+.font14 {
+    font-size: 14px;
+}
+.pdlr {
+    padding-left: 10px;
+    padding-right: 10px;
+}
+/* 页面样式 */
+.header {
+    position: relative;
+    width: 100% !important;
+    height: 100% !important;
+    text-align: center;
+}
+
+.footer {
+    position: absolute;
+    margin: auto;
+    left: 0;right: 0;
+    top:0;bottom: 0;
+    height: 1rem;
+    max-width: 100%;
+    z-index: 2;
+}
+.icon-black {
+    line-height: 1em;
+}
+.icon-black span {
+    display: block;
+}
+.icon-black a:hover {
+    text-decoration: none;
+}
+.nav {
+    margin: 0 auto 6px;
+}
+/* =========
+    浏览器跟新提示
+   ========= */
+
+.browserupgrade {
+    margin: 0;
+    padding: 10px;
+    background: #ccc;
+}
